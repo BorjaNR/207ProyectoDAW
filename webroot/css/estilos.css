@@ -1,0 +1,74 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 20 oct 2023, 9:26:12
+    Author     : daw2
+*/
+
+body {
+        font-family: Verdana;
+        margin: 0;
+        padding: 0;
+        background-image: url(../images/background.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+        
+    header {
+        background-color: #3399ff;
+        color: black;
+        padding: 20px;
+        font-size: 1rem;
+        color: white;
+        margin-bottom: 50px
+    }
+    .Nombre a{
+        margin: auto;
+        padding: 25px;
+        text-decoration: none;
+        font-size: 1.4rem;
+        border: solid 2px #3399ff; 
+        background: #3399ff;
+        padding: 20px;
+        color: white;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    table{
+        margin: auto;
+        width: 30%; height: 300px;
+        text-align: center;
+        color: green;
+        border-collapse: collapse;
+        position: absolute;
+        top: 30%;
+        left: 35%;
+        background: white;
+    }
+    td{
+        border: 2px solid #3399ff;
+        border-radius: 2px;
+    }
+    
+    table a{
+        text-decoration: none;
+        color: blue;
+        font-size: 1rem;
+    }
+    footer{
+        background-color: #3399ff;
+        color: white;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        font-size: 1.2rem;
+        position: absolute;
+        bottom: 0;
+    }
+    footer a{
+        color: white;
+        text-decoration: none;
+    }

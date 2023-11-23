@@ -1,0 +1,13 @@
+[Tue Oct 03 08:48:18.081658 2023] [core:alert] [pid 8566] [client 192.168.3.7:62604] /var/www/html/.htaccess: AllowOverride not allowed here
+[Tue Oct 03 08:48:28.696297 2023] [core:alert] [pid 8568] [client 192.168.3.7:62608] /var/www/html/.htaccess: AllowOverride not allowed here
+[Tue Oct 03 08:48:28.796293 2023] [core:alert] [pid 8570] [client 192.168.3.7:62609] /var/www/html/.htaccess: AllowOverride not allowed here, referer: http://192.168.3.207/info.php
+[Tue Oct 03 08:49:15.205006 2023] [core:alert] [pid 8569] [client 192.168.3.7:62620] /var/www/html/.htaccess: AllowOverride not allowed here
+[Tue Oct 03 08:49:16.867295 2023] [core:alert] [pid 8567] [client 192.168.3.7:62621] /var/www/html/.htaccess: AllowOverride not allowed here
+[Tue Oct 03 08:49:16.974689 2023] [core:alert] [pid 8566] [client 192.168.3.7:62622] /var/www/html/.htaccess: AllowOverride not allowed here, referer: http://192.168.3.207/
+[Tue Oct 03 08:51:42.199506 2023] [core:alert] [pid 788] [client 192.168.3.7:62647] /var/www/html/.htaccess: AllowOverride not allowed here
+[Tue Oct 03 08:51:42.332989 2023] [core:alert] [pid 791] [client 192.168.3.7:62649] /var/www/html/.htaccess: AllowOverride not allowed here
+[Tue Oct 03 08:51:42.405642 2023] [core:alert] [pid 790] [client 192.168.3.7:62650] /var/www/html/.htaccess: AllowOverride not allowed here, referer: http://192.168.3.207/
+[Tue Oct 03 08:55:46.764378 2023] [core:alert] [pid 792] [client 192.168.3.100:53845] /var/www/html/.htaccess: AllowOverride not allowed here
+[Tue Oct 03 08:55:46.817319 2023] [core:alert] [pid 789] [client 192.168.3.100:53846] /var/www/html/.htaccess: AllowOverride not allowed here, referer: http://192.168.3.207/
+[Tue Oct 03 08:56:38.271239 2023] [php:error] [pid 791] [client 192.168.3.100:53854] PHP Fatal error:  Uncaught Error: Call to undefined function php_info() in /var/www/html/info.php:7\nStack trace:\n#0 {main}\n  thrown in /var/www/html/info.php on line 7
+[Fri Oct 06 09:25:30.170238 2023] [core:crit] [pid 1583] (13)Permission denied: [client 192.168.3.7:50521] AH00529: /home/miadmin/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/home/miadmin/' is executable
